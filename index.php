@@ -40,17 +40,17 @@
 
 				})
 
-				.then(function(quote) {
+				.then(function(simpson) {
 
-					console.log('data decoded from JSON:', quote);
+					console.log('data decoded from JSON:', simpson);
 
 
 					// Build a block of HTML
 
 					const simpsonHtml = `
- 	<p><strong>${quote.quote}</strong></p>	
-	<p><strong>${quote.character}</strong></p>
-	<img src="${quote.image}" />
+ 	<p><strong>${simpson.quote}</strong></p>	
+	<p><strong>${simpson.character}</strong></p>
+	<img src="${simpson.image}" />
 	 
 	`;
 
